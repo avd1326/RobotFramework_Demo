@@ -31,3 +31,10 @@ LoginKW
     Input Text        id=txtUsername    @{CRED}[0]        
     Input Password    id=txtPassword    &{CRED1}[password]
     Click Button      id=btnLogin
+    
+
+#C:
+#cd C:\Users\mishal\.jenkins\workspace\RobotTest\eclipse_2020\RobotProject
+#robot test\TestSuite1.robot
+#echo Completed  
+
